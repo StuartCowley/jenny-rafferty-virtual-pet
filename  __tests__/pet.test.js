@@ -13,6 +13,7 @@ describe('constructor', () => {
       expect(pet.name).toEqual('Fido');
     });
   });
+
   describe('constructor', () => {
     it('has an initial age of 0', () => {
       const pet = new Pet('Fido');
@@ -60,3 +61,14 @@ describe('constructor', () => {
         expect(pet.fitness).toEqual(7);
       });
   });
+
+describe('walk', () => {
+  it('increases fitness by to a maximum of 10', () => {
+    const pet = new Pet('fido');
+
+    pet.fitness = 8;
+    pet.walk();
+
+    expect(pet.fitness).toEqual(10);
+  });
+});
