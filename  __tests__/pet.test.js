@@ -123,6 +123,32 @@ describe("walk", () => {
   });
 });
 
+describe("feed", () => {
+  it("decreases the hunger by 3", () => {
+    const pet = new Pet("Brian");
+
+    pet.hunger = 8;
+    pet.feed();
+
+    expect(pet.hunger).toEqual(5);
+  });
+  it("hunger level should not go below 0", () => {
+    const pet = new Pet("Brian");
+
+    pet.hunger = 1;
+    pet.feed();
+
+    expect(pet.hunger).toEqual(0);
+  });
+  it("throws an error if the pet is not alive", () => {
+      const pet = new Pet("Brian");
+  
+      pet.age = 30;
+  
+      expect(() => pet.feed()).toThrow("Your pet is no longer alive :(");
+    });
+  });
+
 describe("checkUp", () => {
   it("checks if the fitness is 3 or less", () => {
     const pet = new Pet("Lassie");
@@ -158,3 +184,5 @@ describe("checkUp", () => {
     expect(pet.checkUp()).toBe("I feel great!");
   });
 });
+
+

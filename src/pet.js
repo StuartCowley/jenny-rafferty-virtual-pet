@@ -30,6 +30,17 @@ Pet.prototype.walk = function () {
   }
 };
 
+Pet.prototype.feed = function () {
+  if (!this.isAlive) {
+    throw new Error('Your pet is no longer alive :(');
+  }
+  if (this.hunger >= MINIMUM_HUNGER + 3) {
+    this.hunger -= 3;
+  } else {
+    this.hunger = MINIMUM_HUNGER;
+  }
+};
+
 Pet.prototype.checkUp = function () {
   if (this.fitness <= 3 && this.hunger >= 5) {
     return "I am hungry AND I need a walk";
@@ -44,5 +55,6 @@ Pet.prototype.checkUp = function () {
     return "I am hungry";
   }
 };
+
 
 module.exports = Pet;
