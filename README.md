@@ -1,26 +1,25 @@
 # virtual-pet
-Virtual pet allows you to care for a pet throughout it's life cycle.
-
+Virtual pet allows you to care for a pet throughout it's life cycle using Javascript
 
 # Description
 
-virtual-pet has the following features:
+Virtual-pet has the following features:
 
-You can give them a name.
+You can name your pet 🐈 🐶 🐠
 
-They can get older.
+Your pet will age, as they get older, they get hungrier and less fit 😮‍💨
 
-As they get older, they get hungrier and less fit.
+You can walk your pet to increase it's fitness 🐾
 
-You can walk your pet to increase it's fitness. 
+You can feed your pet to decrease it's hunger 🥩
 
-You can feed your pet to decrease it's hunger.
+You can talk to your pet to see if it needs feeding or walking 🗣️
 
-You can talk to your pet to see if it needs feeding or walking.
+If your pet gets too hungry or unfit, it will die 💀
 
-If your pet gets too hungry or unfit, it will die.
+If your pet gets to 30 years old it will die 💀
 
-If your pet gets to 30 days old it will die.
+It can have a baby and start the cycle of life all over again  👶 
 
 # License
 
