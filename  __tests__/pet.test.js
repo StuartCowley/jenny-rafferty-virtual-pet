@@ -119,6 +119,7 @@ describe("growUp", () => {
 
     expect(pet.fitness).toEqual(7);
   });
+
   it("throws an error if the pet is not alive", () => {
     const pet = new Pet("Dougal");
 
@@ -233,6 +234,7 @@ describe("have Baby", () => {
       "Congratulations Nina on your child Maru!"
     );
   });
+  
   it("allows the Pet to have children", () => {
     const parent = new Pet("Frances");
 
