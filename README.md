@@ -15,9 +15,7 @@ You can feed your pet to decrease it's hunger 🥩
 
 You can talk to your pet to see if it needs feeding or walking 🗣️
 
-If your pet gets too hungry or unfit, it will die 💀
-
-If your pet gets to 30 years old it will die 💀
+If your pet gets gets to 30 years old, or gets too hungry or unfit, it will die 💀
 
 It can have a baby and start the cycle of life all over again  👶 
 
